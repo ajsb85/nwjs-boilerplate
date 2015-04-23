@@ -8,7 +8,7 @@ Para solucionar este problema debemos añadir unos repositorios experimentales y
 
   # sudo nano /etc/apt/sources.list
 
-deb http://ftp.debian.org/debian experimental main
+deb http://ftp.debian.org/debian experimental main <br>
 deb http://ftp.debian.org/debian sid main
 
 Este repositorio lo tendremos de forma temporal hasta que hagamos la actualización.
@@ -20,3 +20,10 @@ Ahora hacemos la actulizacion de la libreria libc.so.6
 sudo apt-get -t experimental install libc6-dev
 
 Por ultimo eliminamos los repositorios agregados y ejecutamos ./nw
+
+#### Debian Launcher
+###### Para crearlo 
+$gnome-desktop-item-edit ~/.local/share/applications --create-new
+
+###### Para editarlo
+$gnome-desktop-item-edit ~/.local/share/applications/NW.js\ Boilerplate.desktop 
