@@ -1,5 +1,7 @@
 ## NW.js Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ajsb85/nwjs-boilerplate.svg)](https://greenkeeper.io/)
+
 #### Canaima Popular 4.1
 
 Corriendo NW.js en Canaima nos da el error de la librería en C
